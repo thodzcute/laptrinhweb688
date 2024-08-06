@@ -1,0 +1,328 @@
+/* Nhập Font Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Sử dụng font Roboto */
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* Đặt màu chữ cho các liên kết */
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Header (nav) */
+nav {
+    background-color: #FF5733; /* Màu nền cho nav */
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo {
+    font-size: 33px;
+    color: #fff; /* Màu chữ cho logo */
+    font-weight: 600;
+}
+
+/* Header */
+header {
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left {
+    width: 700px;
+}
+
+header .left h1 {
+    font-size: 80px;
+}
+
+header .left h1 span {
+    color: #DFBD77;
+}
+
+header .left p {
+    margin: 40px 0;
+    color: #777;
+}
+
+header .left a {
+    display: flex;
+    align-items: center;
+    background: #DFBD77; /* Màu nền cho nút */
+    width: 200px;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+header .left a i {
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+header .left a span {
+    color: #fff; /* Màu chữ cho nút */
+    margin-left: 10px;
+}
+header .content {
+    text-align: center;
+    margin-top: 50px;
+}
+.content {
+    max-width: 400px; /* Chiều rộng tối đa */
+    margin: 50px auto; /* Căn giữa theo chiều dọc */
+    padding: 20px; /* Khoảng cách bên trong */
+    border: 1px solid #ddd; /* Đường viền */
+    border-radius: 10px; /* Bo tròn các góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    background-color: #f9f9f9; /* Màu nền */
+    text-align: center; /* Canh giữa nội dung */
+}
+
+.chicken-icon {
+    font-size: 50px; /* Kích thước biểu tượng gà */
+    margin-bottom: 20px; /* Khoảng cách bên dưới biểu tượng */
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Kiểu chữ tiêu đề */
+    font-size: 24px; /* Kích thước chữ tiêu đề */
+    color: #333; /* Màu chữ */
+    margin-bottom: 20px; /* Khoảng cách bên dưới tiêu đề */
+}
+
+input[type="text"] {
+    width: 100%; /* Chiều rộng 100% */
+    padding: 10px; /* Khoảng cách bên trong */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    font-size: 16px; /* Kích thước chữ */
+    box-sizing: border-box; /* Tính toán kích thước */
+    margin-bottom: 15px; /* Khoảng cách bên dưới input */
+}
+
+button {
+    background-color: #28a745; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    border: none; /* Không có đường viền */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer; /* Đổi con trỏ khi chuột qua nút */
+    font-size: 16px; /* Kích thước chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+button:hover {
+    background-color: #218838; /* Màu nền khi trỏ chuột qua */
+}
+
+
+
+/* H2 Separator */
+h2.separator {
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFA500; /* Màu nền của thanh menu */
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #ff8c00; /* Màu hover */
+}
+
+.links a.active {
+    background-color: #ff7f50; /* Màu nền cho mục đang hoạt động */
+    font-weight: bold;
+}
+.new-items {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.new-items h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 16px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.view-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.view-more:hover {
+    background-color: #c0392b;
+}
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chicken-icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.phone-input {
+    width: 300px;
+    padding: 12px;
+    margin: 20px 0;
+    border: 2px solid #DFBD77; /* Màu viền */
+    border-radius: 5px; /* Bo góc */
+    font-size: 16px;
+    outline: none; /* Ẩn viền khi focus */
+    transition: border-color 0.3s;
+}
+
+.phone-input::placeholder {
+    color: #aaa; /* Màu chữ cho placeholder */
+}
+
+.phone-input:focus {
+    border-color: #e74c3c; /* Màu viền khi focus */
+}
+
+.check-button {
+    padding: 12px 20px;
+    background-color: #e74c3c; /* Màu nền cho nút */
+    color: #fff; /* Màu chữ */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer; /* Cursor dạng pointer */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.check-button:hover {
+    background-color: #c0392b; /* Màu khi hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #FFA500; /* Màu nền footer */
+    color: white;
+    padding: 20px 10%;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    max-width: 300px;
+}
+
+.footer-left h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
